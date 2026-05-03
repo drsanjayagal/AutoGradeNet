@@ -1,0 +1,27 @@
+{
+    "SurfaceScore": {
+        "MAE": 2.064,
+        "RMSE": 2.557,
+        "R2": 0.288
+    },
+    "DeepScore": {
+        "MAE": 2.103,
+        "RMSE": 2.623,
+        "R2": 0.32
+    },
+    "StructuralScore": {
+        "MAE": 2.102,
+        "RMSE": 2.616,
+        "R2": 0.31
+    },
+    "BehaviouralScore": {
+        "MAE": 1.995,
+        "RMSE": 2.51,
+        "R2": 0.333
+    },
+    "Average": {
+        "MAE": 2.066,
+        "RMSE": 2.576,
+        "R2": 0.313
+    }
+}
