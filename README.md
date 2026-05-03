@@ -1,110 +1,155 @@
-# 🚀 AutoGradeNet: A Novel Fully Autonomous Machine Learning Framework for Human Free Multi Dimensional Student Assessment and Academic Performance Prediction
+# 🚀 AutoGradeNet: A Novel Fully Autonomous Machine Learning Framework for Human‑Free Multi‑Dimensional Student Assessment and Academic Performance Prediction
 
 <p align="center">
-
-![AutoGradeNet Banner](https://img.shields.io/badge/AutoGradeNet-AI%20Driven%20Assessment-blueviolet?style=for-the-badge)
-![Developed By](https://img.shields.io/badge/Developed%20By-Dr.%20Sanjay%20Agal-darkred?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.8+-yellow?style=for-the-badge&logo=python)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Enabled-brightgreen?style=for-the-badge)
-![Statistics](https://img.shields.io/badge/Statistics-Integrated-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
-
+<img src="https://img.shields.io/badge/AutoGradeNet-AI%20Driven%20Assessment-blueviolet?style=for-the-badge" alt="AutoGradeNet">
+<img src="https://img.shields.io/badge/Developed%20By-Dr.%20Sanjay%20Agal-darkred?style=for-the-badge" alt="Developed By">
+<img src="https://img.shields.io/badge/Python-3.8+-yellow?style=for-the-badge&logo=python" alt="Python">
+<img src="https://img.shields.io/badge/Machine%20Learning-Enabled-brightgreen?style=for-the-badge" alt="Machine Learning">
+<img src="https://img.shields.io/badge/Statistics-Integrated-orange?style=for-the-badge" alt="Statistics">
+<img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge" alt="License">
 </p>
 
 ---
 
-# 👨‍💻 Developed By
+## 👨‍💻 Developed By
 
 **Dr. Sanjay Agal**  
-Head of Department, 
-Artificial Intelligence and Data Science , 
-Parul University
-
+*Head of Department, Artificial Intelligence and Data Science*  
+Parul University, India  
 Researcher in Machine Learning, Statistics, Educational Analytics, and Intelligent Systems
 
 ---
 
-# 🎯 Overview
+## 🎯 Overview
 
-**AutoGradeNet** is an advanced **fully autonomous machine learning framework** designed for **human free student assessment**, **multi dimensional academic analytics**, and **performance prediction**.
+**AutoGradeNet** is an advanced **fully autonomous machine learning framework** designed for **human‑free student assessment**, **multi‑dimensional academic analytics**, and **performance prediction**. The framework eliminates manual intervention by intelligently analysing academic, behavioural, attendance, and skill‑based indicators using predictive intelligence.
 
-The framework eliminates manual intervention by intelligently analyzing academic, behavioral, attendance, and skill based indicators using predictive intelligence.
-
-✨ Ideal for:
-
-- Universities  
-- Smart Campuses  
-- EdTech Platforms  
-- Examination Boards  
+✨ **Ideal for:**  
+- Universities & Smart Campuses  
+- EdTech Platforms & Examination Boards  
 - Learning Management Systems  
 
 ---
 
-# 🌟 Key Features
+## 📚 Table of Contents
 
-✅ Fully Automated Student Evaluation  
-✅ Zero Human Bias Assessment  
-✅ Multi Dimensional Performance Analysis  
-✅ Real Time Prediction Engine  
-✅ Explainable AI Insights  
-✅ Fairness and Bias Monitoring  
-✅ Statistical Decision Support  
-✅ Scalable for Large Institutions  
-✅ Publication Ready Research Framework  
+1. [Key Features](#-key-features)  
+2. [Core Modules](#-core-modules)  
+3. [Assessment Dimensions](#-assessment-dimensions)  
+4. [Methodology](#-methodology)  
+5. [Installation & Dependencies](#-installation--dependencies)  
+6. [Data Generation](#-data-generation)  
+7. [Model Training & Evaluation](#-model-training--evaluation)  
+8. [Results & Interpretation](#-results--interpretation)  
+9. [Fairness & Explainability](#-fairness--explainability)  
+10. [Citation & References](#-citation--references)  
+11. [License](#-license)  
 
 ---
 
-# 🧠 Core Modules
+## 🌟 Key Features
+
+| Feature | Description |
+|---------|-------------|
+| ✅ Fully Automated Evaluation | Zero human intervention from data ingestion to report generation. |
+| ✅ Multi‑Dimensional Analysis | Assesses surface, deep, structural, and behavioural skills. |
+| ✅ Real‑Time Prediction | Instant grade prediction and risk flagging. |
+| ✅ Explainable AI (XAI) | Feature importance and SHAP‑based insights. |
+| ✅ Fairness Monitoring | Detects bias across gender, socioeconomic, and linguistic groups. |
+| ✅ Statistical Rigour | Built‑in hypothesis testing, correlation, and outlier analysis. |
+| ✅ Scalable Architecture | Handles thousands of students using parallel processing. |
+| ✅ Publication‑Ready | Generates metrics, figures, and reports for research dissemination. |
+
+---
+
+## 🧠 Core Modules
 
 | Module | Description |
-|-------|-------------|
-| 📊 Data Engine | Generates synthetic and real academic datasets |
-| 🤖 ML Engine | Trains classification and regression models |
-| 📈 Prediction Layer | Predicts grades, risk levels, outcomes |
-| 📉 Statistical Engine | Mean, variance, correlation, outlier analysis |
-| ⚖️ Fairness Engine | Detects bias across groups |
-| 📉 Analytics Dashboard | Visual reports and charts |
-| 🔍 Explainability Layer | Feature importance and transparency |
+|--------|-------------|
+| **📊 Data Engine** | Generates synthetic academic datasets with realistic correlations (5,000 students, 4 subjects, 16 weeks). |
+| **🤖 ML Engine** | Trains multi‑output regression models (Random Forest, XGBoost, Neural Networks) to predict four score dimensions. |
+| **📈 Prediction Layer** | Outputs final grades, dimension‑wise scores, and at‑risk classifications. |
+| **📉 Statistical Engine** | Computes descriptive statistics, ANOVA, and correlation matrices. |
+| **⚖️ Fairness Engine** | Compares model performance across demographic subgroups (e.g., gender, SES). |
+| **📊 Analytics Dashboard** | Generates distribution plots, heatmaps, and feature importance graphs (saved in `figures/`). |
+| **🔍 Explainability Layer** | Provides global and local feature importance using permutation importance and SHAP values. |
 
 ---
 
-# 📚 Assessment Dimensions
+## 📐 Assessment Dimensions
 
-| Dimension | Description |
-|----------|-------------|
-| Surface Score | Memory based learning and routine performance |
-| Deep Score | Conceptual understanding and analytical skill |
-| Structural Score | Logical framework building and organization |
-| Behavioural Score | Attendance, discipline, engagement |
+| Dimension | Description | Example Indicators |
+|-----------|-------------|--------------------|
+| **Surface Score** | Memory‑based recall and routine performance | Quiz scores, multiple‑choice accuracy |
+| **Deep Score** | Conceptual understanding and analytical reasoning | Essay arguments, problem‑solving transfer |
+| **Structural Score** | Logical organisation and framework building | Report structure, code modularity |
+| **Behavioural Score** | Engagement, discipline, and consistency | Attendance rate, forum posts, late submissions |
+
+These dimensions are predicted jointly using a **multi‑output regression** architecture that exploits their natural correlations (see the correlation heatmap in `figures/`).
 
 ---
 
-# 📊 Dataset Summary Statistics
+## 🧪 Methodology
 
-```text
-Number of Students: 5000
-Average Final Grade: 46.61
-Average Surface Score: 18.40
-Average Deep Score: 18.40
-Average Structural Score: 18.42
-Average Behavioural Score: 18.41
+### 4.1 Data Generation
 
-Student Raw Data
-      ↓
-Data Cleaning
-      ↓
-Descriptive Statistics
-      ↓
-Feature Engineering
-      ↓
-Normalization
-      ↓
-Model Training
-      ↓
-Prediction Engine
-      ↓
-Fairness Audit
-      ↓
-Final Report
+A synthetic dataset of **5,000 students** is generated with realistic statistical dependencies:
 
+- **Demographics**: Age, gender, socioeconomic status, parental education, prior GPA.
+- **Assessment Scores**: 4 subjects × 4 assessment types × multi‑dimensional scores (Total, Surface, Deep, Structural, Behavioural).  
+  Scores are drawn from a multivariate normal distribution with a covariance structure that mimics real educational data.
+- **Learning Analytics**: Login frequency, forum posts, resource views, quiz attempts.
+- **Behavioural Features**: Late submissions, skipped questions, help requests, attendance rate, average response time.
+- **External Factors**: Sleep hours, stress level, parental involvement, internet quality.
+- **Ground Truth Labels**: Final grade computed as a weighted sum of the four dimensions plus penalty terms:
 
+\[
+\text{FinalGrade} = 0.35\cdot S_{\text{surface}} + 0.30\cdot S_{\text{deep}} + 0.20\cdot S_{\text{structural}} + 0.15\cdot S_{\text{behavioural}} - 0.5\cdot(\text{late\_submissions} + \text{skipped\_questions}) + 0.1\cdot\text{total\_logins}
+\]
+
+The result is normalised to a 0–100 scale.
+
+### 4.2 Model Architecture
+
+We employ a **Multi‑Output Random Forest Regressor** with 100 trees, which jointly predicts all four dimension scores. This model:
+
+- Handles non‑linear relationships  
+- Provides built‑in feature importance  
+- Scales efficiently to thousands of samples  
+
+Alternative models (e.g., XGBoost, Multi‑Layer Perceptron) can be easily substituted in `src/run_evaluation.py`.
+
+### 4.3 Evaluation Metrics
+
+Performance is measured using:
+
+- **Mean Absolute Error (MAE)**  
+  \[
+  \text{MAE} = \frac{1}{n}\sum_{i=1}^{n}|y_i - \hat{y}_i|
+  \]
+- **Root Mean Squared Error (RMSE)**  
+  \[
+  \text{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}
+  \]
+- **Coefficient of Determination (R²)**  
+  \[
+  R^2 = 1 - \frac{\sum_{i}(y_i - \hat{y}_i)^2}{\sum_{i}(y_i - \bar{y})^2}
+  \]
+
+---
+
+## 💻 Installation & Dependencies
+
+### Prerequisites
+- Python 3.8 or higher
+- Git (optional)
+
+### Setup
+
+```bash
+# Clone the repository (or download the source)
+git clone https://github.com/your-username/AutoGradeNet.git
+cd AutoGradeNet
+
+# Install required packages
+pip install numpy pandas scikit-learn matplotlib seaborn
