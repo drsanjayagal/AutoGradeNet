@@ -31,22 +31,6 @@ Researcher in Machine Learning, Statistics, Educational Analytics, and Intellige
 
 ---
 
-## 📚 Table of Contents
-
-1. [Key Features](#-key-features)  
-2. [Core Modules](#-core-modules)  
-3. [Assessment Dimensions](#-assessment-dimensions)  
-4. [Methodology](#-methodology)  
-5. [Installation & Dependencies](#-installation--dependencies)  
-6. [Data Generation](#-data-generation)  
-7. [Model Training & Evaluation](#-model-training--evaluation)  
-8. [Results & Interpretation](#-results--interpretation)  
-9. [Fairness & Explainability](#-fairness--explainability)  
-10. [Citation & References](#-citation--references)  
-11. [License](#-license)  
-
----
-
 ## 🌟 Key Features
 
 | Feature | Description |
@@ -119,37 +103,11 @@ We employ a **Multi‑Output Random Forest Regressor** with 100 trees, which joi
 
 Alternative models (e.g., XGBoost, Multi‑Layer Perceptron) can be easily substituted in `src/run_evaluation.py`.
 
-### 4.3 Evaluation Metrics
+## Number of students: 5000
+Average Final Grade: 46.61
+Average Surface Score: 18.40
+Average Deep Score: 18.40
+Average Structural Score: 18.42
+Average Behavioural Score: 18.41
 
-Performance is measured using:
 
-- **Mean Absolute Error (MAE)**  
-  \[
-  \text{MAE} = \frac{1}{n}\sum_{i=1}^{n}|y_i - \hat{y}_i|
-  \]
-- **Root Mean Squared Error (RMSE)**  
-  \[
-  \text{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}
-  \]
-- **Coefficient of Determination (R²)**  
-  \[
-  R^2 = 1 - \frac{\sum_{i}(y_i - \hat{y}_i)^2}{\sum_{i}(y_i - \bar{y})^2}
-  \]
-
----
-
-## 💻 Installation & Dependencies
-
-### Prerequisites
-- Python 3.8 or higher
-- Git (optional)
-
-### Setup
-
-```bash
-# Clone the repository (or download the source)
-git clone https://github.com/your-username/AutoGradeNet.git
-cd AutoGradeNet
-
-# Install required packages
-pip install numpy pandas scikit-learn matplotlib seaborn
